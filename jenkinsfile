@@ -1,0 +1,10 @@
+pipeline
+agent any
+stages
+stage ('Build')
+steps
+sh
+sh
+"echo "Hello World"'
+echo "Multiline shell steps works too"
+1s -lah
